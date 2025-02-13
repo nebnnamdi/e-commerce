@@ -1,0 +1,6 @@
+.hero {
+    @apply flex flex-wrap w-[40%] justify-between;
+  }
+  
+  .hero > div {
+  }

@@ -1,0 +1,39 @@
+.header {
+  @apply w-full h-[3.75rem] flex justify-between bg-[#ed017f] text-white px-6 align-middle text-[.8125rem];
+}
+
+.logo {
+  @apply w-[10%] p-3 align-middle m-auto;
+}
+
+.headerLinks {
+  @apply w-[90%] flex justify-center align-middle;
+}
+
+.headerLinks a {
+  @apply hover:bg-white hover:text-[#ed017f] p-5;
+}
+
+.search {
+  @apply rounded-sm p-[4px] text-black w-[50%] h-10 m-auto;
+}
+
+.cartBtn {
+  @apply flex bg-[#33b27b] hover:bg-[#2d9e6d] p-2 rounded-sm m-auto text-white;
+}
+
+.cart {
+  @apply mt-[6.5px];
+}
+
+.qty {
+  @apply bg-slate-200 text-black px-1 rounded-sm;
+}
+
+.navbar {
+  @apply bg-[#94004f] text-white flex justify-between text-[.8125rem];
+}
+
+.navbar > a {
+    @apply hover:bg-white hover:text-[#2e2e2e] px-[1.875rem] py-[.75rem];
+}

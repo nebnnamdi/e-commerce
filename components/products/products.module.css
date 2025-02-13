@@ -1,0 +1,100 @@
+.title {
+  background: #94004f
+    url(https://res.cloudinary.com/staging-konga-com/image/upload/f_auto,q_auto/v1654791685/assets/images/homepage/Bg-Icons.png)
+    repeat;
+  color: #fff;
+  border-radius: 0.3125rem 0.3125rem 0 0;
+}
+
+.product {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  height: 10rem;
+  box-shadow: 0 0.25rem 1.5rem 0 rgba(0, 0, 0, 0.025),
+    0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.025);
+  transition: box-shadow 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productTitle {
+  font-size: 0.9375rem;
+  margin: 0.3125rem 0 0.625rem;
+}
+
+.price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  margin-right: 0.3125rem;
+}
+
+.oldPrice {
+  font-size: 0.875rem;
+  margin-right: 0.25rem;
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.discount {
+  background-color: rgba(255, 59, 59, 0.2);
+  border-radius: 0.5rem;
+  color: #c60000;
+  font-size: 0.625rem;
+  font-weight: 600;
+  padding: 0.1875rem;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.save {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #207f55;
+  margin: 0.125rem 0;
+}
+
+.shadow {
+  box-shadow: 0 0.25rem 1.5rem 0 rgba(0, 0, 0, 0.025),
+    0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.025);
+  transition: box-shadow 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
+}
+
+.shadow:hover {
+  box-shadow: 0 0.25rem 1.5rem 0 rgba(0, 0, 0, 0.12),
+    0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.08);
+}
+
+@media screen and (max-width: 576px) {
+  .product {
+    flex-direction: column;
+    padding: 10px;
+    height: 15rem;
+  }
+
+  .productTitle {
+    font-size: 0.6875rem;
+  }
+
+  .price {
+    font-size: 0.8125rem;
+  }
+
+  .oldPrice {
+    font-size: 0.75rem;
+  }
+
+  .discount {
+    position: absolute;
+    top: 0.625rem;
+    left: 0;
+  }
+}
