@@ -1,0 +1,27 @@
+.carousel {
+  @apply overflow-hidden relative;
+}
+
+.arrows {
+  @apply absolute flex inset-0 justify-between align-middle items-center p-4
+}
+
+.btn {
+  @apply text-gray-500 bg-white rounded-full opacity-60 shadow md:hidden;
+}
+
+.carousel:hover .btn {
+  @apply inline-flex;
+}
+
+.carouselSlide {
+  @apply flex transition-transform ease-out duration-500;
+}
+
+.slideCtn {
+  @apply absolute bottom-4 right-0 left-0;
+}
+
+.bg {
+  background-color: rgb(92, 89, 89);
+}
